@@ -48,7 +48,7 @@ function update(e) {
             }
 
             markup += '|';
-            markup += formatter(content, line, rowIndex, content, colIndex); // Defaults to a no-op
+            markup += formatter(content, line, rowIndex, colIndex); // Defaults to a no-op
             markup += '\n';
         });
         markup += '|-\n';
